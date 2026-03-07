@@ -1,0 +1,583 @@
+[2026-02-04T11:26:23.614Z] Попытка подключения к браузеру 1/3
+[2026-02-04T11:26:23.617Z] ERROR: Ошибка подключения (попытка 1): config is not defined
+[2026-02-04T11:26:23.617Z] Повторная попытка через 10 сек...
+[2026-02-04T11:26:30.173Z] Получен сигнал SIGINT
+[2026-02-04T11:26:30.173Z] Завершение: SIGINT
+[2026-02-04T11:26:30.174Z] ERROR: Ошибка шатдауна: ReferenceError: closeDB is not defined
+[2026-02-04T11:27:13.174Z] Попытка подключения к браузеру 1/3
+[2026-02-04T11:27:13.178Z] ERROR: Ошибка подключения (попытка 1): Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T11:27:13.179Z] Повторная попытка через 10 сек...
+[2026-02-04T11:27:20.608Z] Получен сигнал SIGINT
+[2026-02-04T11:27:20.608Z] Завершение: SIGINT
+[2026-02-04T11:27:20.609Z] ERROR: Ошибка шатдауна: ReferenceError: closeDB is not defined
+[2026-02-04T11:48:30.219Z] Попытка подключения к браузеру 1/3
+[2026-02-04T11:48:30.223Z] ERROR: Ошибка подключения (попытка 1): Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T11:48:30.223Z] Повторная попытка через 10 сек...
+[2026-02-04T11:48:40.234Z] Попытка подключения к браузеру 2/3
+[2026-02-04T11:48:40.236Z] ERROR: Ошибка подключения (попытка 2): Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T11:48:40.236Z] Повторная попытка через 20 сек...
+[2026-02-04T11:48:43.070Z] Получен сигнал SIGINT
+[2026-02-04T11:48:43.070Z] Завершение: SIGINT
+[2026-02-04T11:51:15.813Z] ERROR: Глобальная ошибка: Error: Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T11:51:20.901Z] ERROR: Глобальная ошибка: Error: Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T11:55:50.978Z] ERROR: Глобальная ошибка: Error: Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T11:56:14.822Z] ERROR: Глобальная ошибка: Error: Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T11:59:09.359Z] ERROR: Глобальная ошибка: Error: Cannot find module 'puppeteer-core'
+Require stack:
+- C:\Users\zfm\Desktop\скрипты\deepSeekWorker\node_modules\puppeteer-extra\dist\index.cjs.js
+- C:\Users\zfm\Desktop\скрипты\deepSeekWorker\main.js
+[2026-02-04T12:03:07.771Z] ERROR: Глобальная ошибка: Error: Could not find expected browser (chrome) locally. Run `npm install` to download the correct Chromium revision (869685).
+[2026-02-04T12:16:18.543Z] ERROR: Глобальная ошибка: TypeError: browser.pages is not a function
+[2026-02-04T12:16:44.691Z] ERROR: Глобальная ошибка: TypeError: browser.pages is not a function
+[2026-02-04T12:18:41.979Z] ERROR: Глобальная ошибка: TypeError: browser.pages is not a function
+[2026-02-04T12:25:07.299Z] Viewport set
+[2026-02-04T12:25:07.303Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T12:25:07.304Z] Current URL: about:blank
+[2026-02-04T12:25:07.306Z] CDP session created
+[2026-02-04T12:25:23.064Z] Shutdown: SIGINT
+[2026-02-04T12:26:40.485Z] Viewport set
+[2026-02-04T12:26:40.488Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T12:26:40.488Z] Current URL: about:blank
+[2026-02-04T12:26:40.489Z] CDP session created
+[2026-02-04T12:27:00.063Z] Page closed
+[2026-02-04T12:27:00.064Z] Shutdown: page closed
+[2026-02-04T12:27:00.093Z] Browser disconnected
+[2026-02-04T12:39:45.125Z] Viewport set
+[2026-02-04T12:39:45.129Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T12:39:45.130Z] Current URL: about:blank
+[2026-02-04T12:39:45.132Z] ERROR: Global error: Error: Protocol error (Page.navigate): Cannot navigate to invalid URL
+    at C:\Users\zfm\Desktop\скрипты\deepSeekWorker\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:208:63
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\Users\zfm\Desktop\скрипты\deepSeekWorker\node_modules\puppeteer\lib\cjs\puppeteer\common\Connection.js:207:16)
+    at navigate (C:\Users\zfm\Desktop\скрипты\deepSeekWorker\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:108:47)
+    at FrameManager.navigateFrame (C:\Users\zfm\Desktop\скрипты\deepSeekWorker\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:91:13)
+    at Frame.goto (C:\Users\zfm\Desktop\скрипты\deepSeekWorker\node_modules\puppeteer\lib\cjs\puppeteer\common\FrameManager.js:416:41)
+    at Page.goto (C:\Users\zfm\Desktop\скрипты\deepSeekWorker\node_modules\puppeteer\lib\cjs\puppeteer\common\Page.js:819:53)
+    at C:\Users\zfm\Desktop\скрипты\deepSeekWorker\main.js:145:20
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-02-04T12:39:45.133Z] Shutdown: global error
+[2026-02-04T12:39:45.151Z] Page closed
+[2026-02-04T12:39:45.187Z] Browser disconnected
+[2026-02-04T12:40:03.079Z] Viewport set
+[2026-02-04T12:40:03.084Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T12:40:03.085Z] Current URL: about:blank
+[2026-02-04T12:40:06.134Z] 1
+[2026-02-04T12:40:15.234Z] Shutdown: SIGINT
+[2026-02-04T12:40:19.418Z] Viewport set
+[2026-02-04T12:40:19.422Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T12:40:19.423Z] Current URL: about:blank
+[2026-02-04T12:40:23.078Z] 1
+[2026-02-04T13:45:10.039Z] Page closed
+[2026-02-04T13:45:10.041Z] Shutdown: page closed
+[2026-02-04T13:45:10.093Z] Browser disconnected
+[2026-02-04T13:46:36.222Z] Viewport set
+[2026-02-04T13:46:36.226Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T13:46:36.226Z] Current URL: about:blank
+[2026-02-04T13:46:36.228Z] ERROR: Global error: ReferenceError: payload is not defined
+    at C:\Users\zfm\Desktop\скрипты\deepSeekWorker\main.js:146:34
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-02-04T13:46:36.229Z] Shutdown: global error
+[2026-02-04T13:46:36.239Z] Page closed
+[2026-02-04T13:46:36.263Z] Browser disconnected
+[2026-02-04T13:46:51.786Z] Viewport set
+[2026-02-04T13:46:51.790Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T13:46:51.791Z] Current URL: about:blank
+[2026-02-04T13:47:29.924Z] Page closed
+[2026-02-04T13:47:29.925Z] Shutdown: page closed
+[2026-02-04T13:47:29.953Z] Browser disconnected
+[2026-02-04T13:47:55.614Z] Viewport set
+[2026-02-04T13:47:55.618Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T13:47:55.619Z] Current URL: about:blank
+[2026-02-04T13:48:05.182Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-04T13:48:17.342Z] Page closed
+[2026-02-04T13:48:17.343Z] Shutdown: page closed
+[2026-02-04T13:48:17.379Z] Browser disconnected
+[2026-02-04T13:52:00.217Z] Viewport set
+[2026-02-04T13:52:00.220Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T13:52:00.221Z] Current URL: about:blank
+[2026-02-04T13:52:09.470Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-04T13:52:14.249Z] Page closed
+[2026-02-04T13:52:14.250Z] Shutdown: page closed
+[2026-02-04T13:52:14.286Z] Browser disconnected
+[2026-02-04T13:54:07.948Z] Viewport set
+[2026-02-04T13:54:07.952Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T13:54:07.953Z] Current URL: about:blank
+[2026-02-04T13:54:20.401Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-04T13:54:24.636Z] Page closed
+[2026-02-04T13:54:24.637Z] Shutdown: page closed
+[2026-02-04T13:54:24.673Z] Browser disconnected
+[2026-02-04T14:05:40.307Z] Viewport set
+[2026-02-04T14:05:40.312Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:05:40.313Z] Current URL: about:blank
+[2026-02-04T14:05:57.044Z] Shutdown: SIGINT
+[2026-02-04T14:06:15.250Z] Viewport set
+[2026-02-04T14:06:15.254Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:06:15.255Z] Current URL: about:blank
+[2026-02-04T14:06:32.539Z] Page closed
+[2026-02-04T14:06:32.540Z] Shutdown: page closed
+[2026-02-04T14:06:32.576Z] Browser disconnected
+[2026-02-04T14:06:46.152Z] Viewport set
+[2026-02-04T14:06:46.156Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:06:46.157Z] Current URL: about:blank
+[2026-02-04T14:07:08.148Z] Page closed
+[2026-02-04T14:07:08.149Z] Shutdown: page closed
+[2026-02-04T14:07:08.189Z] Browser disconnected
+[2026-02-04T14:07:50.231Z] Viewport set
+[2026-02-04T14:07:50.236Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:07:50.237Z] Current URL: about:blank
+[2026-02-04T14:09:04.792Z] Page closed
+[2026-02-04T14:09:04.793Z] Shutdown: page closed
+[2026-02-04T14:09:04.817Z] Browser disconnected
+[2026-02-04T14:09:51.208Z] Viewport set
+[2026-02-04T14:09:51.212Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:09:51.214Z] Current URL: about:blank
+[2026-02-04T14:10:09.186Z] Page closed
+[2026-02-04T14:10:09.187Z] Shutdown: page closed
+[2026-02-04T14:10:09.223Z] Browser disconnected
+[2026-02-04T14:17:57.979Z] Viewport set
+[2026-02-04T14:17:57.982Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:17:57.982Z] Current URL: about:blank
+[2026-02-04T14:19:26.903Z] Shutdown: SIGINT
+[2026-02-04T14:19:35.481Z] Viewport set
+[2026-02-04T14:19:35.485Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:19:35.486Z] Current URL: about:blank
+[2026-02-04T14:40:40.663Z] Page closed
+[2026-02-04T14:40:40.664Z] Shutdown: page closed
+[2026-02-04T14:40:40.710Z] Browser disconnected
+[2026-02-04T14:40:43.582Z] Viewport set
+[2026-02-04T14:40:43.585Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:40:43.585Z] Current URL: about:blank
+[2026-02-04T14:40:59.589Z] Page closed
+[2026-02-04T14:40:59.589Z] Shutdown: page closed
+[2026-02-04T14:40:59.612Z] Browser disconnected
+[2026-02-04T14:41:30.196Z] Viewport set
+[2026-02-04T14:41:30.200Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:41:30.201Z] Current URL: about:blank
+[2026-02-04T14:56:31.003Z] Page closed
+[2026-02-04T14:56:31.005Z] Shutdown: page closed
+[2026-02-04T14:56:31.034Z] Browser disconnected
+[2026-02-04T14:56:33.822Z] Viewport set
+[2026-02-04T14:56:33.825Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:56:33.826Z] Current URL: about:blank
+[2026-02-04T14:56:58.530Z] Page closed
+[2026-02-04T14:56:58.531Z] Shutdown: page closed
+[2026-02-04T14:56:58.560Z] Browser disconnected
+[2026-02-04T14:59:39.576Z] Viewport set
+[2026-02-04T14:59:39.578Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T14:59:39.579Z] Current URL: about:blank
+[2026-02-04T14:59:44.521Z] Page closed
+[2026-02-04T14:59:44.522Z] Shutdown: page closed
+[2026-02-04T14:59:44.545Z] Browser disconnected
+[2026-02-04T15:00:11.304Z] Viewport set
+[2026-02-04T15:00:11.308Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T15:00:11.309Z] Current URL: about:blank
+[2026-02-04T15:01:42.112Z] Shutdown: SIGINT
+[2026-02-04T15:01:46.521Z] Viewport set
+[2026-02-04T15:01:46.525Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T15:01:46.525Z] Current URL: about:blank
+[2026-02-04T15:04:05.634Z] Shutdown: SIGINT
+[2026-02-04T15:04:08.734Z] Viewport set
+[2026-02-04T15:04:08.737Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T15:04:08.738Z] Current URL: about:blank
+[2026-02-04T18:00:06.020Z] Page closed
+[2026-02-04T18:00:06.022Z] Shutdown: page closed
+[2026-02-04T18:00:06.055Z] Browser disconnected
+[2026-02-04T18:00:09.230Z] Viewport set
+[2026-02-04T18:00:09.234Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:00:09.235Z] Current URL: about:blank
+[2026-02-04T18:00:09.238Z] ERROR: Global error: ReferenceError: sendMessage is not defined
+    at C:\Users\zfm\Desktop\скрипты\deepSeekWorker\main.js:153:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-02-04T18:00:09.238Z] Shutdown: global error
+[2026-02-04T18:00:09.248Z] Page closed
+[2026-02-04T18:00:09.326Z] Browser disconnected
+[2026-02-04T18:01:03.506Z] Viewport set
+[2026-02-04T18:01:03.511Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:01:03.512Z] Current URL: about:blank
+[2026-02-04T18:01:03.515Z] ERROR: Global error: TypeError: sendMessage is not a function
+    at C:\Users\zfm\Desktop\скрипты\deepSeekWorker\main.js:154:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-02-04T18:01:03.516Z] Shutdown: global error
+[2026-02-04T18:01:03.525Z] Page closed
+[2026-02-04T18:01:03.546Z] Browser disconnected
+[2026-02-04T18:01:27.114Z] Viewport set
+[2026-02-04T18:01:27.117Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:01:27.118Z] Current URL: about:blank
+[2026-02-04T18:01:35.999Z] Shutdown: SIGINT
+[2026-02-04T18:01:58.893Z] Viewport set
+[2026-02-04T18:01:58.896Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:01:58.897Z] Current URL: about:blank
+[2026-02-04T18:02:36.587Z] Page closed
+[2026-02-04T18:02:36.589Z] Shutdown: page closed
+[2026-02-04T18:02:36.616Z] Browser disconnected
+[2026-02-04T18:03:22.326Z] Viewport set
+[2026-02-04T18:03:22.329Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:03:22.329Z] Current URL: about:blank
+[2026-02-04T18:03:38.465Z] Shutdown: SIGINT
+[2026-02-04T18:04:00.986Z] Viewport set
+[2026-02-04T18:04:00.989Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:04:00.990Z] Current URL: about:blank
+[2026-02-04T18:04:20.397Z] Page closed
+[2026-02-04T18:04:20.398Z] Shutdown: page closed
+[2026-02-04T18:04:20.425Z] Browser disconnected
+[2026-02-04T18:04:26.973Z] Viewport set
+[2026-02-04T18:04:26.977Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:04:26.978Z] Current URL: about:blank
+[2026-02-04T18:04:43.959Z] Shutdown: SIGINT
+[2026-02-04T18:05:39.603Z] Viewport set
+[2026-02-04T18:05:39.607Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:05:39.608Z] Current URL: about:blank
+[2026-02-04T18:06:05.879Z] Shutdown: SIGINT
+[2026-02-04T18:08:31.542Z] Viewport set
+[2026-02-04T18:08:31.546Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:08:31.546Z] Current URL: about:blank
+[2026-02-04T18:11:20.780Z] Page closed
+[2026-02-04T18:11:20.781Z] Shutdown: page closed
+[2026-02-04T18:11:20.804Z] Browser disconnected
+[2026-02-04T18:11:24.889Z] Viewport set
+[2026-02-04T18:11:24.892Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:11:24.892Z] Current URL: about:blank
+[2026-02-04T18:12:29.039Z] Page closed
+[2026-02-04T18:12:29.040Z] Shutdown: page closed
+[2026-02-04T18:12:29.066Z] Browser disconnected
+[2026-02-04T18:14:38.430Z] Viewport set
+[2026-02-04T18:14:38.433Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:14:38.434Z] Current URL: about:blank
+[2026-02-04T18:14:44.525Z] Page closed
+[2026-02-04T18:14:44.526Z] Shutdown: page closed
+[2026-02-04T18:14:44.558Z] Browser disconnected
+[2026-02-04T18:14:57.395Z] Viewport set
+[2026-02-04T18:14:57.399Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:14:57.400Z] Current URL: about:blank
+[2026-02-04T18:15:08.270Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:15:21.171Z] Page closed
+[2026-02-04T18:15:21.172Z] Shutdown: page closed
+[2026-02-04T18:15:21.199Z] Browser disconnected
+[2026-02-04T18:16:24.797Z] Viewport set
+[2026-02-04T18:16:24.801Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:16:24.802Z] Current URL: about:blank
+[2026-02-04T18:16:34.833Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:41:25.409Z] Page closed
+[2026-02-04T18:41:25.410Z] Shutdown: page closed
+[2026-02-04T18:41:25.446Z] Browser disconnected
+[2026-02-04T18:41:28.583Z] Viewport set
+[2026-02-04T18:41:28.587Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:41:28.588Z] Current URL: about:blank
+[2026-02-04T18:41:38.792Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:45:00.135Z] Shutdown: SIGINT
+[2026-02-04T18:45:02.759Z] Viewport set
+[2026-02-04T18:45:02.763Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:45:02.764Z] Current URL: about:blank
+[2026-02-04T18:45:13.787Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:45:22.268Z] Shutdown: SIGINT
+[2026-02-04T18:47:19.344Z] Viewport set
+[2026-02-04T18:47:19.347Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:47:19.348Z] Current URL: about:blank
+[2026-02-04T18:47:30.419Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:47:35.999Z] Shutdown: SIGINT
+[2026-02-04T18:48:36.536Z] Viewport set
+[2026-02-04T18:48:36.540Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:48:36.541Z] Current URL: about:blank
+[2026-02-04T18:48:47.776Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:49:19.386Z] Shutdown: SIGINT
+[2026-02-04T18:50:12.239Z] Viewport set
+[2026-02-04T18:50:12.243Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:50:12.243Z] Current URL: about:blank
+[2026-02-04T18:50:23.519Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:53:24.508Z] Page closed
+[2026-02-04T18:53:24.508Z] Shutdown: page closed
+[2026-02-04T18:53:24.543Z] Browser disconnected
+[2026-02-04T18:53:57.786Z] Viewport set
+[2026-02-04T18:53:57.791Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:53:57.792Z] Current URL: about:blank
+[2026-02-04T18:54:08.533Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:54:25.485Z] Page closed
+[2026-02-04T18:54:25.486Z] Shutdown: page closed
+[2026-02-04T18:54:25.517Z] Browser disconnected
+[2026-02-04T18:55:54.595Z] Viewport set
+[2026-02-04T18:55:54.599Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:55:54.600Z] Current URL: about:blank
+[2026-02-04T18:56:05.221Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:56:13.213Z] Page closed
+[2026-02-04T18:56:13.215Z] Shutdown: page closed
+[2026-02-04T18:56:13.241Z] Browser disconnected
+[2026-02-04T18:56:42.023Z] Viewport set
+[2026-02-04T18:56:42.027Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:56:42.028Z] Current URL: about:blank
+[2026-02-04T18:56:52.088Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:57:03.432Z] Shutdown: SIGINT
+[2026-02-04T18:57:23.847Z] Viewport set
+[2026-02-04T18:57:23.851Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:57:23.852Z] Current URL: about:blank
+[2026-02-04T18:57:34.548Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:58:14.368Z] Page closed
+[2026-02-04T18:58:14.369Z] Shutdown: page closed
+[2026-02-04T18:58:14.399Z] Browser disconnected
+[2026-02-04T18:58:36.477Z] Viewport set
+[2026-02-04T18:58:36.480Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T18:58:36.481Z] Current URL: about:blank
+[2026-02-04T18:58:47.442Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T18:59:40.409Z] Page closed
+[2026-02-04T18:59:40.410Z] Shutdown: page closed
+[2026-02-04T18:59:40.439Z] Browser disconnected
+[2026-02-04T19:02:56.479Z] Viewport set
+[2026-02-04T19:02:56.483Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T19:02:56.484Z] Current URL: about:blank
+[2026-02-04T19:03:06.530Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T19:03:34.435Z] Page closed
+[2026-02-04T19:03:34.436Z] Shutdown: page closed
+[2026-02-04T19:03:34.466Z] Browser disconnected
+[2026-02-04T19:03:50.446Z] Viewport set
+[2026-02-04T19:03:50.450Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T19:03:50.450Z] Current URL: about:blank
+[2026-02-04T19:04:01.250Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T19:05:04.952Z] Page closed
+[2026-02-04T19:05:04.953Z] Shutdown: page closed
+[2026-02-04T19:05:04.985Z] Browser disconnected
+[2026-02-04T19:05:21.946Z] Viewport set
+[2026-02-04T19:05:21.949Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T19:05:21.950Z] Current URL: about:blank
+[2026-02-04T19:05:32.763Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T19:06:03.728Z] Shutdown: SIGINT
+[2026-02-04T19:06:28.394Z] Viewport set
+[2026-02-04T19:06:28.397Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T19:06:28.398Z] Current URL: about:blank
+[2026-02-04T19:06:38.313Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T19:11:30.658Z] Page closed
+[2026-02-04T19:11:30.659Z] Shutdown: page closed
+[2026-02-04T19:11:30.684Z] Browser disconnected
+[2026-02-04T19:22:44.027Z] Viewport set
+[2026-02-04T19:22:44.030Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T19:22:44.031Z] Current URL: about:blank
+[2026-02-04T19:22:54.979Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T19:24:07.499Z] Shutdown: SIGINT
+[2026-02-04T19:24:28.322Z] Viewport set
+[2026-02-04T19:24:28.326Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T19:24:28.326Z] Current URL: about:blank
+[2026-02-04T19:24:39.012Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-04T19:29:06.834Z] Shutdown: SIGINT
+[2026-02-04T19:29:09.776Z] Viewport set
+[2026-02-04T19:29:09.779Z] Launched: Chrome/143.0.7499.170
+[2026-02-04T19:29:09.780Z] Current URL: about:blank
+[2026-02-04T19:29:32.352Z] Page closed
+[2026-02-04T19:29:32.353Z] Shutdown: page closed
+[2026-02-04T19:29:32.382Z] Browser disconnected
+[2026-02-05T10:31:09.540Z] Viewport set
+[2026-02-05T10:31:09.545Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T10:31:09.546Z] Current URL: about:blank
+[2026-02-05T10:34:45.091Z] Page closed
+[2026-02-05T10:34:45.094Z] Shutdown: page closed
+[2026-02-05T10:34:45.174Z] Browser disconnected
+[2026-02-05T10:34:49.968Z] Viewport set
+[2026-02-05T10:34:49.973Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T10:34:49.974Z] Current URL: about:blank
+[2026-02-05T10:52:59.292Z] Page closed
+[2026-02-05T10:52:59.294Z] Shutdown: page closed
+[2026-02-05T10:52:59.341Z] Browser disconnected
+[2026-02-05T10:56:26.293Z] Viewport set
+[2026-02-05T10:56:26.300Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T10:56:26.301Z] Current URL: about:blank
+[2026-02-05T10:56:36.263Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T10:57:21.045Z] Shutdown: SIGINT
+[2026-02-05T10:57:26.769Z] Viewport set
+[2026-02-05T10:57:26.775Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T10:57:26.777Z] Current URL: about:blank
+[2026-02-05T10:57:35.647Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T10:58:26.567Z] Shutdown: SIGINT
+[2026-02-05T10:58:40.810Z] Viewport set
+[2026-02-05T10:58:40.815Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T10:58:40.816Z] Current URL: about:blank
+[2026-02-05T10:58:50.161Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T11:07:04.882Z] Shutdown: SIGINT
+[2026-02-05T11:07:09.522Z] Viewport set
+[2026-02-05T11:07:09.526Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T11:07:09.527Z] Current URL: about:blank
+[2026-02-05T11:07:21.851Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T11:08:00.032Z] Page closed
+[2026-02-05T11:08:00.033Z] Shutdown: page closed
+[2026-02-05T11:08:00.061Z] Browser disconnected
+[2026-02-05T11:08:38.958Z] Viewport set
+[2026-02-05T11:08:38.966Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T11:08:38.967Z] Current URL: about:blank
+[2026-02-05T11:08:47.570Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T11:09:47.746Z] Page closed
+[2026-02-05T11:09:47.747Z] Shutdown: page closed
+[2026-02-05T11:09:47.793Z] Browser disconnected
+[2026-02-05T11:10:21.898Z] Viewport set
+[2026-02-05T11:10:21.902Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T11:10:21.903Z] Current URL: about:blank
+[2026-02-05T11:10:31.817Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T11:21:32.027Z] Shutdown: SIGINT
+[2026-02-05T11:21:37.400Z] Viewport set
+[2026-02-05T11:21:37.404Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T11:21:37.405Z] Current URL: about:blank
+[2026-02-05T11:21:46.642Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T11:23:46.624Z] Page closed
+[2026-02-05T11:23:46.625Z] Shutdown: page closed
+[2026-02-05T11:23:46.674Z] Browser disconnected
+[2026-02-05T11:28:37.044Z] Viewport set
+[2026-02-05T11:28:37.050Z] Launched: Chrome/143.0.7499.170
+[2026-02-05T11:28:37.051Z] Current URL: about:blank
+[2026-02-05T11:28:46.923Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T12:59:28.201Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T12:59:28.712Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T12:59:43.006Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T12:59:43.523Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T12:59:56.132Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T12:59:56.486Z] ERROR: [bot#3] page closed
+[2026-02-05T12:59:56.529Z] ERROR: [bot#3] browser disconnected
+[2026-02-05T12:59:56.644Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T12:59:58.022Z] ERROR: [bot#2] page closed
+[2026-02-05T12:59:58.064Z] ERROR: [bot#2] browser disconnected
+[2026-02-05T12:59:58.918Z] ERROR: [bot#1] page closed
+[2026-02-05T12:59:58.993Z] ERROR: [bot#1] browser disconnected
+[2026-02-05T13:09:47.571Z] [bot#1] login start (model=deepseek)
+[2026-02-05T13:09:49.766Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T13:09:50.280Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-05T13:10:03.516Z] ERROR: [bot#1] page closed
+[2026-02-05T13:10:03.543Z] ERROR: [bot#1] browser disconnected
+[2026-02-05T13:20:38.451Z] [bot#1] login start (model=deepseek)
+[2026-02-05T13:20:49.401Z] [bot#1] login ok
+[2026-02-05T13:20:49.401Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T13:20:49.402Z] ERROR: [bot#1] page closed
+[2026-02-05T13:20:49.443Z] ERROR: [bot#1] browser disconnected
+[2026-02-05T13:21:42.335Z] [bot#1] login start (model=deepseek)
+[2026-02-05T13:21:51.518Z] [bot#1] login ok
+[2026-02-05T13:21:51.519Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T13:22:05.782Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T13:25:29.430Z] [bot#2] login start (model=deepseek)
+[2026-02-05T13:25:37.851Z] [bot#2] login ok
+[2026-02-05T13:25:37.852Z] [bot#2] init ok (model=deepseek)
+[2026-02-05T13:25:57.520Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T13:37:31.276Z] ERROR: [bot#1] page closed
+[2026-02-05T13:37:31.326Z] ERROR: [bot#1] browser disconnected
+[2026-02-05T13:38:32.862Z] ERROR: [bot#2] page closed
+[2026-02-05T13:38:32.900Z] ERROR: [bot#2] browser disconnected
+[2026-02-05T13:48:00.889Z] [bot#1] login start (model=deepseek)
+[2026-02-05T13:48:09.889Z] [bot#1] login ok
+[2026-02-05T13:48:09.890Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T13:48:12.219Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T13:48:21.803Z] [bot#2] login start (model=deepseek)
+[2026-02-05T13:48:30.019Z] [bot#2] login ok
+[2026-02-05T13:48:30.020Z] [bot#2] init ok (model=deepseek)
+[2026-02-05T13:48:52.807Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T13:53:56.031Z] ERROR: [bot#1] page closed
+[2026-02-05T13:53:56.063Z] ERROR: [bot#1] browser disconnected
+[2026-02-05T13:54:27.514Z] ERROR: [bot#2] page closed
+[2026-02-05T13:54:27.543Z] ERROR: [bot#2] browser disconnected
+[2026-02-05T14:41:28.995Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T14:41:32.648Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T14:42:32.892Z] [bot#2] init ok (model=deepseek)
+[2026-02-05T14:42:34.771Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T14:43:49.900Z] ERROR: [bot#1] page closed
+[2026-02-05T14:43:49.935Z] ERROR: [bot#1] browser disconnected
+[2026-02-05T14:43:53.853Z] ERROR: [bot#2] page closed
+[2026-02-05T14:43:53.888Z] ERROR: Error: Protocol error (Input.dispatchKeyEvent): Session closed. Most likely the page has been closed.
+[2026-02-05T14:43:53.891Z] ERROR: [bot#2] browser disconnected
+[2026-02-05T14:43:54.401Z] ERROR: Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-02-05T14:44:46.883Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T14:44:54.115Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and not(contains(@class, 'ds-toggle-button--selected'))]
+[2026-02-05T14:46:46.166Z] [bot#2] init ok (model=deepseek)
+[2026-02-05T14:47:08.473Z] Кликнут элемент: //span[text()='DeepThink']/ancestor::div[@role='button' and contains(@class, 'ds-toggle-button--selected')]
+[2026-02-05T14:48:11.539Z] ERROR: [bot#1] page closed
+[2026-02-05T14:48:11.688Z] ERROR: [bot#1] browser disconnected
+[2026-02-05T14:48:12.274Z] ERROR: [bot#2] page closed
+[2026-02-05T14:48:12.368Z] ERROR: [bot#2] browser disconnected
+[2026-02-05T14:59:19.449Z] [bot#1] login start (model=deepseek)
+[2026-02-05T14:59:28.061Z] [bot#1] login ok
+[2026-02-05T14:59:28.062Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T15:04:31.467Z] [bot#1] login start (model=deepseek)
+[2026-02-05T15:04:39.641Z] [bot#1] login ok
+[2026-02-05T15:04:39.642Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T19:09:48.229Z] [bot#1] login start (model=deepseek)
+[2026-02-05T19:09:56.910Z] [bot#1] login ok
+[2026-02-05T19:09:56.911Z] [bot#1] init ok (model=deepseek)
+[2026-02-05T19:10:27.475Z] ERROR: [bot#1] page closed
+[2026-02-05T19:16:33.205Z] [bot#1] login start (model=deepseek)
+[2026-02-05T19:16:41.985Z] [bot#1] login ok
+[2026-02-05T19:16:41.986Z] [bot#1] init ok (model=deepseek)
+[2026-02-06T07:35:06.104Z] [bot#1] login start (model=deepseek)
+[2026-02-06T07:35:14.331Z] [bot#1] login ok
+[2026-02-06T07:35:14.332Z] [bot#1] init ok (model=deepseek)
+[2026-02-06T07:36:04.796Z] [bot#1] login start (model=deepseek)
+[2026-02-06T07:36:12.286Z] [bot#1] login ok
+[2026-02-06T07:36:12.287Z] [bot#1] init ok (model=deepseek)
+[2026-02-06T07:37:09.826Z] [bot#2] login start (model=deepseek)
+[2026-02-06T07:37:20.296Z] [bot#2] login ok
+[2026-02-06T07:37:20.297Z] [bot#2] init ok (model=deepseek)
+[2026-02-06T07:38:18.455Z] ERROR: [bot#2] page closed
+[2026-02-06T07:38:19.780Z] ERROR: [bot#1] page closed
+[2026-02-07T14:46:39.022Z] [bot#1] login start (model=deepseek)
+[2026-02-07T14:46:40.942Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-07T14:46:41.443Z] ERROR: TypeError: page.waitForXPath is not a function
+[2026-02-07T14:46:41.452Z] ERROR: [bot#1] page closed
+[2026-02-07T15:01:15.910Z] [bot#1] login start (model=deepseek)
+[2026-02-07T15:01:22.854Z] [bot#1] login ok
+[2026-02-07T15:01:22.856Z] [bot#1] init ok (model=deepseek)
+[2026-02-07T15:01:49.051Z] ERROR: [bot#1] page closed
+[2026-02-07T15:31:39.587Z] [bot#1] login start (model=deepseek)
+[2026-02-07T15:31:46.134Z] [bot#1] login ok
+[2026-02-07T15:31:46.135Z] [bot#1] init ok (model=deepseek)
+[2026-02-07T18:45:33.520Z] [bot#1] login start (model=deepseek)
+[2026-02-07T18:47:01.342Z] [bot#1] login start (model=deepseek)
+[2026-02-07T18:48:14.938Z] [bot#1] login start (model=deepseek)
+[2026-02-07T18:49:08.115Z] [bot#1] login start (model=deepseek)
+[2026-02-07T19:04:46.682Z] [bot#1] login start (model=deepseek)
+[2026-02-07T19:04:54.647Z] [bot#1] login ok
+[2026-02-07T19:04:54.648Z] [bot#1] init ok (model=deepseek)
+[2026-02-07T19:04:58.239Z] [bot#2] login start (model=deepseek)
+[2026-02-07T19:05:04.848Z] [bot#2] login ok
+[2026-02-07T19:05:04.848Z] [bot#2] init ok (model=deepseek)
+[2026-02-07T19:05:19.398Z] [bot#3] login start (model=deepseek)
+[2026-02-07T19:05:26.064Z] [bot#3] login ok
+[2026-02-07T19:05:26.065Z] [bot#3] init ok (model=deepseek)
+[2026-02-07T19:05:30.864Z] ERROR: [bot#3] page closed
+[2026-02-07T19:05:31.497Z] ERROR: [bot#2] page closed
+[2026-02-07T19:05:32.576Z] ERROR: [bot#1] page closed
+[2026-02-07T19:05:50.276Z] [bot#4] login start (model=deepseek)
+[2026-02-07T19:05:56.870Z] [bot#4] login ok
+[2026-02-07T19:05:56.871Z] [bot#4] init ok (model=deepseek)
+[2026-02-07T19:10:55.006Z] [bot#1] login start (model=deepseek)
+[2026-02-07T19:11:02.283Z] [bot#1] login ok
+[2026-02-07T19:11:02.283Z] [bot#1] init ok (model=deepseek)
+[2026-02-07T19:13:09.456Z] ERROR: [bot#1] page closed
+[2026-02-07T19:35:59.900Z] [bot#1] login start (model=deepseek)
+[2026-02-07T19:36:04.883Z] ERROR: [bot#1] page closed
+[2026-02-07T19:36:04.966Z] ERROR: TargetCloseError: Waiting for selector `.//span[text()='Log in']/ancestor::button` failed: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-02-07T19:47:48.991Z] [bot#1] login start (model=deepseek)
+[2026-02-07T19:48:00.185Z] [bot#1] login ok
+[2026-02-07T19:48:00.186Z] [bot#1] init ok (model=deepseek)
+[2026-02-07T20:00:25.520Z] ERROR: [bot#1] page closed
+[2026-02-07T20:00:39.498Z] [bot#2] login start (model=deepseek)
+[2026-02-07T20:00:46.061Z] [bot#2] login ok
+[2026-02-07T20:00:46.062Z] [bot#2] init ok (model=deepseek)
+[2026-02-07T20:04:35.060Z] ERROR: [bot#2] page closed
+[2026-03-01T13:26:48.169Z] [bot#1] login start (model=deepseek)
+[2026-03-01T13:26:54.739Z] ERROR: [bot#1] page closed
+[2026-03-01T13:27:04.874Z] [bot#2] login start (model=deepseek)
+[2026-03-01T13:27:10.888Z] ERROR: [bot#2] page closed
+[2026-03-01T13:32:51.260Z] [bot#1] login start (model=deepseek)
+[2026-03-01T13:33:08.276Z] [bot#2] login start (model=deepseek)
+[2026-03-01T13:33:17.062Z] [bot#2] login ok
+[2026-03-01T13:33:17.063Z] [bot#2] init ok (model=deepseek)
+[2026-03-02T14:20:11.692Z] ERROR: [bot#2] page closed
+[2026-03-02T14:46:08.352Z] [bot#3] login start (model=deepseek)
+[2026-03-02T14:46:10.221Z] ERROR: [bot#3] page closed
+[2026-03-02T14:46:10.594Z] ERROR: TargetCloseError: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-03-02T14:46:11.108Z] ERROR: TargetCloseError: Waiting for selector `.//input[@type='password']` failed: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-03-02T14:46:11.621Z] ERROR: TargetCloseError: Waiting for selector `.//span[text()='Log in']/ancestor::button` failed: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-03-02T18:27:04.250Z] [bot#1] login start (model=deepseek)
+[2026-03-02T18:27:10.643Z] [bot#1] login ok
+[2026-03-02T18:27:10.643Z] [bot#1] init ok (model=deepseek)
+[2026-03-02T18:28:41.321Z] ERROR: [bot#1] page closed
+[2026-03-02T18:29:10.697Z] [bot#1] login start (model=deepseek)
+[2026-03-02T18:29:15.087Z] ERROR: [bot#1] page closed
+[2026-03-02T18:29:15.232Z] ERROR: TargetCloseError: Waiting for selector `.//span[text()='Log in']/ancestor::button` failed: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-03-02T18:29:23.321Z] [bot#2] login start (model=deepseek)
+[2026-03-02T18:29:26.192Z] ERROR: [bot#2] page closed
+[2026-03-02T18:29:26.465Z] ERROR: TargetCloseError: Waiting for selector `.//input[@type='password']` failed: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-03-02T18:29:26.982Z] ERROR: TargetCloseError: Waiting for selector `.//span[text()='Log in']/ancestor::button` failed: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+[2026-03-02T18:29:40.684Z] [bot#1] login start (model=deepseek)
+[2026-03-02T18:30:52.940Z] [bot#1] login start (model=deepseek)
+[2026-03-02T18:30:59.367Z] [bot#1] login ok
+[2026-03-02T18:30:59.368Z] [bot#1] init ok (model=deepseek)

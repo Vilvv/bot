@@ -1,0 +1,18 @@
+services:
+  bot-pool-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.linux
+    env_file:
+      - .env
+    ports:
+      - "${PORT:-3000}:3000"
+    init: true
+    restart: unless-stopped
+    networks:
+      - shared-network
+
+networks:
+  shared-network:
+    external: true
+    name: shared-network
