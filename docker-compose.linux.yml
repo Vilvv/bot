@@ -1,21 +1,36 @@
+version: '3.8'
+
 services:
   bot-pool-api:
     build:
       context: .
       dockerfile: Dockerfile
       args:
-        HTTP_PROXY: ${HTTP_PROXY}
-        HTTPS_PROXY: ${HTTPS_PROXY}
-        NO_PROXY: ${NO_PROXY}
+        HTTP_PROXY: "http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/"
+        HTTPS_PROXY: "http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/"
+        NO_PROXY: "localhost,127.0.0.1,db,nginx,.local,bot_pool_api,shared-network"
     container_name: bot_pool_api
     env_file:
       - .env
+    environment:
+      # Прокси для работы контейнера (чтобы бот имел доступ в интернет)
+      - HTTP_PROXY=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
+      - HTTPS_PROXY=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
+      - NO_PROXY=localhost,127.0.0.1,db,nginx,.local,bot_pool_api,shared-network
+      - http_proxy=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
+      - https_proxy=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
+      - no_proxy=localhost,127.0.0.1,db,nginx,.local,bot_pool_api,shared-network
     ports:
       - "${PORT:-3000}:3000"
     init: true
     restart: unless-stopped
     networks:
       - shared-network
+    # Добавляем DNS для надежности
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+      - 77.88.8.8  # Яндекс DNS
 
 networks:
   shared-network:
