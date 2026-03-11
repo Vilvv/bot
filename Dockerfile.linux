@@ -1,7 +1,16 @@
 # syntax=docker/dockerfile:1.7
 FROM node:20-bookworm-slim
 
-WORKDIR /app
+ARG HTTP_PROXY
+ARG HTTPS_PROXY
+ARG NO_PROXY
+
+ENV HTTP_PROXY=${HTTP_PROXY}
+ENV HTTPS_PROXY=${HTTPS_PROXY}
+ENV NO_PROXY=${NO_PROXY}
+ENV http_proxy=${HTTP_PROXY}
+ENV https_proxy=${HTTPS_PROXY}
+ENV no_proxy=${NO_PROXY}
 
 ENV NODE_ENV=production \
     NPM_CONFIG_LOGLEVEL=error \
@@ -10,9 +19,17 @@ ENV NODE_ENV=production \
     NPM_CONFIG_UPDATE_NOTIFIER=false \
     NPM_CONFIG_PROGRESS=false
 
-# System deps required to run Puppeteer's downloaded Chrome/Chromium
-RUN apt-get update \
- && apt-get install -y --no-install-recommends \
+RUN rm -rf /var/lib/apt/lists/* && \
+    printf '%s\n' \
+      'Acquire::Retries "5";' \
+      'Acquire::http::Pipeline-Depth "0";' \
+      'Acquire::http::No-Cache "true";' \
+      'Acquire::http::No-Store "true";' \
+      'Acquire::By-Hash "yes";' \
+      'Acquire::CompressionTypes::Order { "gz"; "bz2"; "xz"; };' \
+      > /etc/apt/apt.conf.d/99proxyfix && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends \
     ca-certificates \
     fonts-liberation \
     libasound2 \
@@ -46,17 +63,19 @@ RUN apt-get update \
     libxrender1 \
     libxss1 \
     libxtst6 \
-    xdg-utils \
- && rm -rf /var/lib/apt/lists/*
+    xdg-utils && \
+    rm -rf /var/lib/apt/lists/*
 
-# 1) deps layer (best for caching)
+WORKDIR /app
+
 COPY package.json package-lock.json ./
+
 RUN --mount=type=cache,target=/root/.npm \
     npm ci --omit=dev --no-audit --no-fund
 
-# 2) app code
 COPY api/ ./api/
 COPY worker/ ./worker/
 
 EXPOSE 3000
+
 CMD ["npm","start"]
