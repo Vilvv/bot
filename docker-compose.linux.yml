@@ -5,32 +5,24 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      args:
+      args:                              # Прокси передаются только для сборки
         HTTP_PROXY: "http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/"
         HTTPS_PROXY: "http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/"
-        NO_PROXY: "localhost,127.0.0.1,db,nginx,.local,bot_pool_api,shared-network"
+        NO_PROXY: "localhost,127.0.0.1,db,nginx,.local,bot_pool_api,shared-network,dl_ai_web,dl_ai_db,dl_ai_nginx"
     container_name: bot_pool_api
     env_file:
-      - .env
-    environment:
-      # Прокси для работы контейнера (чтобы бот имел доступ в интернет)
-      - HTTP_PROXY=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
-      - HTTPS_PROXY=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
-      - NO_PROXY=localhost,127.0.0.1,db,nginx,.local,bot_pool_api,shared-network
-      - http_proxy=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
-      - https_proxy=http://main%5Cdlupdate:3sd4y-K8yf3@proxy.gsu.by:800/
-      - no_proxy=localhost,127.0.0.1,db,nginx,.local,bot_pool_api,shared-network
+      - .env                              # Только переменные бота (токены, URL и т.п.)
+    # Секция environment с прокси УДАЛЕНА – в рантайме прокси не будет
     ports:
       - "${PORT:-3000}:3000"
     init: true
     restart: unless-stopped
     networks:
       - shared-network
-    # Добавляем DNS для надежности
-    dns:
+    dns:                                  # Явные DNS на случай проблем с резолвингом
       - 8.8.8.8
       - 8.8.4.4
-      - 77.88.8.8  # Яндекс DNS
+      - 77.88.8.8
 
 networks:
   shared-network:
